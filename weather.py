@@ -15,7 +15,7 @@ fig_2 = px.line(df, x='month', y='max_temp', color='city', height=500, title='Ma
 
 # maximum temperature diagramm
 fig_3 = px.choropleth(
-    df, locations="alpha-3", projection='equal earth',
+    df, locations="alpha-3", projection='mercator',
     color="max_temp", 
     hover_name="city", 
     color_continuous_scale=px.colors.sequential.Reds, range_color= (-30, 40),
