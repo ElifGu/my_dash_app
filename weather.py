@@ -28,7 +28,7 @@ fig_4 = px.bar(df_rain, x= 'month', y='max_precip_mm', color='city',barmode='gro
 
 # minimum temprature map
 fig_5 = px.choropleth(
-    df_min, locations="alpha-3", projection='equal earth',
+    df_min, locations="alpha-3", projection='mercator',
     color="min_temp", 
     hover_name="country", 
     color_continuous_scale=px.colors.sequential.ice, range_color= (-55, 25),
