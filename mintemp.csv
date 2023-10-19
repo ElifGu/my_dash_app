@@ -1,0 +1,121 @@
+month,min_temp,city,country,alpha-3,region
+1.0,-54.9,Yakutsk,Russian Federation,RUS,Europe
+2.0,-49.4,Yakutsk,Russian Federation,RUS,Europe
+3.0,-42.8,Yakutsk,Russian Federation,RUS,Europe
+4.0,-25.1,Yakutsk,Russian Federation,RUS,Europe
+5.0,-7.0,Yakutsk,Russian Federation,RUS,Europe
+6.0,2.6,Yakutsk,Russian Federation,RUS,Europe
+7.0,7.6,Yakutsk,Russian Federation,RUS,Europe
+8.0,6.5,Yakutsk,Russian Federation,RUS,Europe
+9.0,-4.3,Yakutsk,Russian Federation,RUS,Europe
+10.0,-15.6,Yakutsk,Russian Federation,RUS,Europe
+11.0,-42.6,Yakutsk,Russian Federation,RUS,Europe
+12.0,-51.2,Yakutsk,Russian Federation,RUS,Europe
+1.0,-28.9,Jasper,Canada,CAN,Americas
+2.0,-33.9,Jasper,Canada,CAN,Americas
+3.0,-28.9,Jasper,Canada,CAN,Americas
+4.0,-14.3,Jasper,Canada,CAN,Americas
+5.0,-0.6,Jasper,Canada,CAN,Americas
+6.0,-0.2,Jasper,Canada,CAN,Americas
+7.0,2.2,Jasper,Canada,CAN,Americas
+8.0,0.8,Jasper,Canada,CAN,Americas
+9.0,-4.0,Jasper,Canada,CAN,Americas
+10.0,-8.6,Jasper,Canada,CAN,Americas
+11.0,-25.4,Jasper,Canada,CAN,Americas
+12.0,-39.9,Jasper,Canada,CAN,Americas
+1.0,-9.6,Kaifeng,China,CHN,Asia
+2.0,-1.6,Kaifeng,China,CHN,Asia
+3.0,0.5,Kaifeng,China,CHN,Asia
+4.0,5.0,Kaifeng,China,CHN,Asia
+5.0,12.1,Kaifeng,China,CHN,Asia
+6.0,15.5,Kaifeng,China,CHN,Asia
+7.0,22.5,Kaifeng,China,CHN,Asia
+8.0,16.2,Kaifeng,China,CHN,Asia
+9.0,15.5,Kaifeng,China,CHN,Asia
+10.0,8.7,Kaifeng,China,CHN,Asia
+11.0,-4.6,Kaifeng,China,CHN,Asia
+12.0,-4.7,Kaifeng,China,CHN,Asia
+1.0,-2.3,Berlin,Germany,DEU,Europe
+2.0,-4.0,Berlin,Germany,DEU,Europe
+3.0,-1.7,Berlin,Germany,DEU,Europe
+4.0,-2.4,Berlin,Germany,DEU,Europe
+5.0,4.2,Berlin,Germany,DEU,Europe
+6.0,7.5,Berlin,Germany,DEU,Europe
+7.0,12.0,Berlin,Germany,DEU,Europe
+8.0,11.7,Berlin,Germany,DEU,Europe
+9.0,10.7,Berlin,Germany,DEU,Europe
+10.0,5.5,Berlin,Germany,DEU,Europe
+11.0,-3.4,Berlin,Germany,DEU,Europe
+12.0,-6.8,Berlin,Germany,DEU,Europe
+1.0,3.9,Lisbon,Portugal,PRT,Europe
+2.0,5.7,Lisbon,Portugal,PRT,Europe
+3.0,5.7,Lisbon,Portugal,PRT,Europe
+4.0,9.9,Lisbon,Portugal,PRT,Europe
+5.0,12.7,Lisbon,Portugal,PRT,Europe
+6.0,15.0,Lisbon,Portugal,PRT,Europe
+7.0,16.1,Lisbon,Portugal,PRT,Europe
+8.0,16.2,Lisbon,Portugal,PRT,Europe
+9.0,15.4,Lisbon,Portugal,PRT,Europe
+10.0,15.1,Lisbon,Portugal,PRT,Europe
+11.0,10.3,Lisbon,Portugal,PRT,Europe
+12.0,7.8,Lisbon,Portugal,PRT,Europe
+1.0,10.1,Miami,United States of America,USA,Americas
+2.0,15.9,Miami,United States of America,USA,Americas
+3.0,17.5,Miami,United States of America,USA,Americas
+4.0,21.9,Miami,United States of America,USA,Americas
+5.0,22.1,Miami,United States of America,USA,Americas
+6.0,24.4,Miami,United States of America,USA,Americas
+7.0,25.7,Miami,United States of America,USA,Americas
+8.0,26.3,Miami,United States of America,USA,Americas
+9.0,24.2,Miami,United States of America,USA,Americas
+10.0,20.1,Miami,United States of America,USA,Americas
+11.0,23.2,Miami,United States of America,USA,Americas
+12.0,11.0,Miami,United States of America,USA,Americas
+1.0,16.1,Sydney,Australia,AUS,Oceania
+2.0,15.7,Sydney,Australia,AUS,Oceania
+3.0,14.7,Sydney,Australia,AUS,Oceania
+4.0,11.7,Sydney,Australia,AUS,Oceania
+5.0,8.2,Sydney,Australia,AUS,Oceania
+6.0,6.5,Sydney,Australia,AUS,Oceania
+7.0,7.1,Sydney,Australia,AUS,Oceania
+8.0,9.2,Sydney,Australia,AUS,Oceania
+9.0,7.5,Sydney,Australia,AUS,Oceania
+10.0,12.3,Sydney,Australia,AUS,Oceania
+11.0,10.4,Sydney,Australia,AUS,Oceania
+12.0,12.5,Sydney,Australia,AUS,Oceania
+1.0,16.3,Sittwe,Myanmar,MMR,Asia
+2.0,17.2,Sittwe,Myanmar,MMR,Asia
+3.0,19.6,Sittwe,Myanmar,MMR,Asia
+4.0,24.1,Sittwe,Myanmar,MMR,Asia
+5.0,23.9,Sittwe,Myanmar,MMR,Asia
+6.0,25.6,Sittwe,Myanmar,MMR,Asia
+7.0,25.7,Sittwe,Myanmar,MMR,Asia
+8.0,24.9,Sittwe,Myanmar,MMR,Asia
+9.0,25.3,Sittwe,Myanmar,MMR,Asia
+10.0,22.4,Sittwe,Myanmar,MMR,Asia
+11.0,21.0,Sittwe,Myanmar,MMR,Asia
+12.0,16.9,Sittwe,Myanmar,MMR,Asia
+1.0,16.3,Buenos Aires,Argentina,ARG,Americas
+2.0,9.7,Buenos Aires,Argentina,ARG,Americas
+3.0,14.0,Buenos Aires,Argentina,ARG,Americas
+4.0,8.4,Buenos Aires,Argentina,ARG,Americas
+5.0,6.0,Buenos Aires,Argentina,ARG,Americas
+6.0,2.6,Buenos Aires,Argentina,ARG,Americas
+7.0,0.4,Buenos Aires,Argentina,ARG,Americas
+8.0,4.0,Buenos Aires,Argentina,ARG,Americas
+9.0,5.2,Buenos Aires,Argentina,ARG,Americas
+10.0,5.7,Buenos Aires,Argentina,ARG,Americas
+11.0,7.5,Buenos Aires,Argentina,ARG,Americas
+12.0,12.3,Buenos Aires,Argentina,ARG,Americas
+1.0,20.4,Kinshasa,"Congo, Democratic Republic of the",COD,Africa
+2.0,20.6,Kinshasa,"Congo, Democratic Republic of the",COD,Africa
+3.0,20.0,Kinshasa,"Congo, Democratic Republic of the",COD,Africa
+4.0,21.2,Kinshasa,"Congo, Democratic Republic of the",COD,Africa
+5.0,20.4,Kinshasa,"Congo, Democratic Republic of the",COD,Africa
+6.0,19.8,Kinshasa,"Congo, Democratic Republic of the",COD,Africa
+7.0,19.1,Kinshasa,"Congo, Democratic Republic of the",COD,Africa
+8.0,19.6,Kinshasa,"Congo, Democratic Republic of the",COD,Africa
+9.0,23.1,Kinshasa,"Congo, Democratic Republic of the",COD,Africa
+10.0,20.9,Kinshasa,"Congo, Democratic Republic of the",COD,Africa
+11.0,20.1,Kinshasa,"Congo, Democratic Republic of the",COD,Africa
+12.0,19.4,Kinshasa,"Congo, Democratic Republic of the",COD,Africa
