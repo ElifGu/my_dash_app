@@ -11,6 +11,7 @@ df = pd.read_csv('maxdata.csv')
 df_rain = pd.read_csv('maxprecip.csv')
 df_min = pd.read_csv('mintemp.csv')
 wind = pd.read_csv('windy.csv')
+df_lisbon = pd.read_csv('lisbon.csv')
 
 # maximum temperature diagramm
 
@@ -64,6 +65,49 @@ fig_5 = px.choropleth(
 
 fig_wind = px.line(wind, x= 'month', y= 'max_wind', markers=True, color= 'city', height= 500, title= 'Maximum Wind')
 
+fig_lisbon = go.Figure()
+
+# Hinzufügen der Balken für Niederschlagsmenge
+fig_lisbon.add_trace(
+    go.Bar(
+        x=df_lisbon['month'],
+        y=df_lisbon['avg_precip_mm'],
+        name="Precipitation",
+        marker=dict(color="DodgerBlue"),
+        yaxis="y2"  # Verknüpfung mit der zweiten Y-Achse
+    )
+)
+
+# Hinzufügen der Linie für Maximaltemperatur
+fig_lisbon.add_trace(
+    go.Scatter(
+        x=df_lisbon['month'],
+        y=df_lisbon['max_temp'],
+        mode='lines+markers',
+        name="Max Temperature",
+        line=dict(color="red"),
+        yaxis="y1"  # Verknüpfung mit der ersten Y-Achse
+    )
+)
+
+# Layout anpassen
+fig_lisbon.update_layout(
+    legend=dict(orientation="h"),
+    yaxis=dict(
+        title="Max Temperature (°C)",
+        side="left",
+        showgrid=False,
+    ),
+    yaxis2=dict(
+        title="Precipitation(mm)",
+        side="right",
+        showgrid=False,
+        overlaying="y",
+    ),
+    xaxis=dict(title="Month"),
+)
+
+
 
 app = dash.Dash(external_stylesheets=[dbc.themes.MATERIA])
 
@@ -100,7 +144,9 @@ content = html.Div([
     html.H3('Cold Waves', style={"paddingLeft": "100px"}),
     dcc.Graph(figure=fig_5),
     html.H3('Heavy wind', style={"paddingLeft": "100px"}),
-    dcc.Graph(figure=fig_wind)
+    dcc.Graph(figure=fig_wind),
+    html.H3('Drought', style={"paddingLeft": "100px"}),
+    dcc.Graph(figure=fig_lisbon)
 ])
 
 # Kombiniere Header, Content und Footer

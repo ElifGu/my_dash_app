@@ -1,0 +1,13 @@
+month,avg_precip_mm,city,country,lat,lon,alpha-3,region,max_temp
+1.0,1.1316129032258069,Lisbon,Portugal,38.72,-9.13,PRT,Europe,18.2
+2.0,0.8025000000000001,Lisbon,Portugal,38.72,-9.13,PRT,Europe,20.3
+3.0,1.570967741935484,Lisbon,Portugal,38.72,-9.13,PRT,Europe,23.3
+4.0,0.4566666666666666,Lisbon,Portugal,38.72,-9.13,PRT,Europe,29.9
+5.0,0.3645161290322581,Lisbon,Portugal,38.72,-9.13,PRT,Europe,29.3
+6.0,0.8616666666666667,Lisbon,Portugal,38.72,-9.13,PRT,Europe,33.8
+7.0,0.0258064516129032,Lisbon,Portugal,38.72,-9.13,PRT,Europe,31.7
+8.0,0.0032258064516129,Lisbon,Portugal,38.72,-9.13,PRT,Europe,34.7
+9.0,2.1446666666666667,Lisbon,Portugal,38.72,-9.13,PRT,Europe,29.8
+10.0,1.679375,Lisbon,Portugal,38.72,-9.13,PRT,Europe,29.8
+11.0,1.4600000000000004,Lisbon,Portugal,38.72,-9.13,PRT,Europe,22.2
+12.0,7.201935483870968,Lisbon,Portugal,38.72,-9.13,PRT,Europe,18.9
