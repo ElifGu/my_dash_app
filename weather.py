@@ -10,12 +10,10 @@ df = pd.read_csv('maxdata.csv')
 df_rain = pd.read_csv('maxprecip.csv')
 df_min = pd.read_csv('mintemp.csv')
 
-# Erstellung des zweiten Diagramms
-fig_2 = px.line(df, x='month', y='max_temp', color='city', height=500, title='Maximum temperature in bars')
 
 # maximum temperature diagramm
 fig_3 = px.choropleth(
-    df, locations="alpha-3", projection='mercator',
+    df, locations="alpha-3", projection='natural earth',
     color="max_temp", 
     hover_name="city", 
     color_continuous_scale=px.colors.sequential.Reds, range_color= (-30, 40),
@@ -28,7 +26,7 @@ fig_4 = px.bar(df_rain, x= 'month', y='max_precip_mm', color='city',barmode='gro
 
 # minimum temprature map
 fig_5 = px.choropleth(
-    df_min, locations="alpha-3", projection='mercator',
+    df_min, locations="alpha-3", projection='natural earth',
     color="min_temp", 
     hover_name="country", 
     color_continuous_scale=px.colors.sequential.ice, range_color= (-55, 25),
@@ -54,7 +52,7 @@ footer = html.Div([
 radio_item_fig_4 = dcc.RadioItems(
     id='radio-fig-4',
     options=[
-        {'label': 'Option 1', 'value': 'option1'},
+        {'label': 'Show all cities', 'value': 'option1'},
         {'label': 'Option 2', 'value': 'option2'},
         # Füge weitere Optionen hinzu, je nach Bedarf
     ],
@@ -65,7 +63,6 @@ radio_item_fig_4 = dcc.RadioItems(
 content = html.Div([
     html.H3('Heat Waves', style={"paddingLeft": "100px"}),
     dcc.Graph(figure=fig_3),  # Füge das erste Diagramm hinzu
-    dcc.Graph(figure=fig_2),   # Füge das zweite Diagramm hinzu
     html.H3('Hard Rainfalls', style={"paddingLeft": "100px"}),
     radio_item_fig_4,  # Füge das Radio-Element für fig_4 hinzu
     dcc.Graph(id='fig-4-graph'),  # Leeres Graph-Element für fig_4
