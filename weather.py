@@ -97,7 +97,7 @@ content = html.Div([
     radio_item_fig_4,  # Füge das Radio-Element für fig_4 hinzu
     dcc.Graph(id='fig-4-graph'),  # Leeres Graph-Element für fig_4
     html.H3('Cold Waves', style={"paddingLeft": "100px"}),
-    dcc.Graph(figure=fig_5)
+    dcc.Graph(figure=fig_5),
     html.H3('Heavy wind', style={"paddingLeft": "100px"}),
     dcc.Graph(figure=fig_wind)
 ])
