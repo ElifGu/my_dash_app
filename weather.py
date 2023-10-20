@@ -139,14 +139,14 @@ radio_item_fig_4 = dcc.RadioItems(
 content = html.Div([
     html.H3('Heat Waves', style={"paddingLeft": "100px"}),
     dcc.Graph(figure=fig_3),  # Füge das erste Diagramm hinzu
-    html.H3('Floods', style={"paddingLeft": "100px"}),
+    html.H3('Floods in Congo and Myanmar', style={"paddingLeft": "100px"}),
     radio_item_fig_4,  # Füge das Radio-Element für fig_4 hinzu
     dcc.Graph(id='fig-4-graph'),  # Leeres Graph-Element für fig_4
     html.H3('Cold Waves', style={"paddingLeft": "100px"}),
     dcc.Graph(figure=fig_5),
-    html.H3('Heavy wind', style={"paddingLeft": "100px"}),
+    html.H3('Heavy wind in Myanmar', style={"paddingLeft": "100px"}),
     dcc.Graph(figure=fig_wind),
-    html.H3('Drought', style={"paddingLeft": "100px"}),
+    html.H3('Drought in Lisbon', style={"paddingLeft": "100px"}),
     dcc.Graph(figure=fig_lisbon)
 ])
 
