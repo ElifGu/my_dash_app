@@ -6,7 +6,7 @@ import pandas as pd
 from dash.dependencies import Input, Output, State
 
 # Lesen der Daten
-new = pd.read_csv('heatwaves.csv')
+new = pd.read_csv('heatweaves.csv')
 df = pd.read_csv('maxdata.csv')
 df_rain = pd.read_csv('maxprecip.csv')
 df_min = pd.read_csv('mintemp.csv')
