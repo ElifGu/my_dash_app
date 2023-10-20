@@ -10,7 +10,7 @@ new = pd.read_csv('heatweaves.csv')
 df = pd.read_csv('maxdata.csv')
 df_rain = pd.read_csv('maxprecip.csv')
 df_min = pd.read_csv('mintemp.csv')
-
+wind = pd.read_csv('windy.csv')
 
 # maximum temperature diagramm
 
@@ -31,16 +31,13 @@ scatter = px.scatter_geo(new,
                          text='city',
                          projection='natural earth')
 
-fig.add_trace(scatter.data[0])
+fig_3.add_trace(scatter.data[0])
 
 # Update the layout to set the country boundaries to black
-fig.update_geos(
+fig_3.update_geos(
     countrycolor='black',
     showcountries=True,
 )
-
-# Show the map
-fig.show()
 
 # fig_3 = px.choropleth(
 #     df, locations="alpha-3", projection='natural earth',
@@ -63,6 +60,9 @@ fig_5 = px.choropleth(
     animation_frame= 'month',
     height= 600
 )
+
+fig_wind = px.line(wind, x= 'month', y= 'max_wind', markers=True, color= 'city', height= 500, title= 'Maximum Wind')
+
 
 app = dash.Dash(external_stylesheets=[dbc.themes.MATERIA])
 
@@ -98,6 +98,8 @@ content = html.Div([
     dcc.Graph(id='fig-4-graph'),  # Leeres Graph-Element für fig_4
     html.H3('Cold Waves', style={"paddingLeft": "100px"}),
     dcc.Graph(figure=fig_5)
+    html.H3('Heavy wind', style={"paddingLeft": "100px"}),
+    dcc.Graph(figure=fig_wind)
 ])
 
 # Kombiniere Header, Content und Footer
