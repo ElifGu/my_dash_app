@@ -1,0 +1,121 @@
+,month,max_temp,city,country,lat,lon,alpha-3,region
+0,1.0,-25.4,Yakutsk,Russian Federation,62.03,129.73,RUS,Europe
+1,2.0,-10.1,Yakutsk,Russian Federation,62.03,129.73,RUS,Europe
+2,3.0,1.6,Yakutsk,Russian Federation,62.03,129.73,RUS,Europe
+3,4.0,7.5,Yakutsk,Russian Federation,62.03,129.73,RUS,Europe
+4,5.0,21.3,Yakutsk,Russian Federation,62.03,129.73,RUS,Europe
+5,6.0,32.4,Yakutsk,Russian Federation,62.03,129.73,RUS,Europe
+6,7.0,35.0,Yakutsk,Russian Federation,62.03,129.73,RUS,Europe
+7,8.0,28.3,Yakutsk,Russian Federation,62.03,129.73,RUS,Europe
+8,9.0,17.6,Yakutsk,Russian Federation,62.03,129.73,RUS,Europe
+9,10.0,10.2,Yakutsk,Russian Federation,62.03,129.73,RUS,Europe
+10,11.0,-5.0,Yakutsk,Russian Federation,62.03,129.73,RUS,Europe
+11,12.0,-22.4,Yakutsk,Russian Federation,62.03,129.73,RUS,Europe
+12,1.0,0.9,Jasper,Canada,52.88,-118.08,CAN,Americas
+13,2.0,1.0,Jasper,Canada,52.88,-118.08,CAN,Americas
+14,3.0,6.8,Jasper,Canada,52.88,-118.08,CAN,Americas
+15,4.0,19.3,Jasper,Canada,52.88,-118.08,CAN,Americas
+16,5.0,27.2,Jasper,Canada,52.88,-118.08,CAN,Americas
+17,6.0,28.0,Jasper,Canada,52.88,-118.08,CAN,Americas
+18,7.0,26.8,Jasper,Canada,52.88,-118.08,CAN,Americas
+19,8.0,27.5,Jasper,Canada,52.88,-118.08,CAN,Americas
+20,9.0,22.4,Jasper,Canada,52.88,-118.08,CAN,Americas
+21,10.0,19.0,Jasper,Canada,52.88,-118.08,CAN,Americas
+22,11.0,2.1,Jasper,Canada,52.88,-118.08,CAN,Americas
+23,12.0,-0.6,Jasper,Canada,52.88,-118.08,CAN,Americas
+24,1.0,14.4,Berlin,Germany,52.52,13.4,DEU,Europe
+25,2.0,12.1,Berlin,Germany,52.52,13.4,DEU,Europe
+26,3.0,17.3,Berlin,Germany,52.52,13.4,DEU,Europe
+27,4.0,20.0,Berlin,Germany,52.52,13.4,DEU,Europe
+28,5.0,26.6,Berlin,Germany,52.52,13.4,DEU,Europe
+29,6.0,31.0,Berlin,Germany,52.52,13.4,DEU,Europe
+30,7.0,35.2,Berlin,Germany,52.52,13.4,DEU,Europe
+31,8.0,31.7,Berlin,Germany,52.52,13.4,DEU,Europe
+32,9.0,31.4,Berlin,Germany,52.52,13.4,DEU,Europe
+33,10.0,27.0,Berlin,Germany,52.52,13.4,DEU,Europe
+34,11.0,17.9,Berlin,Germany,52.52,13.4,DEU,Europe
+35,12.0,15.0,Berlin,Germany,52.52,13.4,DEU,Europe
+36,1.0,17.2,Kaifeng,China,34.74,114.42,CHN,Asia
+37,2.0,19.4,Kaifeng,China,34.74,114.42,CHN,Asia
+38,3.0,31.6,Kaifeng,China,34.74,114.42,CHN,Asia
+39,4.0,31.9,Kaifeng,China,34.74,114.42,CHN,Asia
+40,5.0,37.3,Kaifeng,China,34.74,114.42,CHN,Asia
+41,6.0,39.6,Kaifeng,China,34.74,114.42,CHN,Asia
+42,7.0,40.9,Kaifeng,China,34.74,114.42,CHN,Asia
+43,8.0,36.8,Kaifeng,China,34.74,114.42,CHN,Asia
+44,9.0,32.1,Kaifeng,China,34.74,114.42,CHN,Asia
+45,10.0,29.0,Kaifeng,China,34.74,114.42,CHN,Asia
+46,11.0,23.2,Kaifeng,China,34.74,114.42,CHN,Asia
+47,12.0,12.4,Kaifeng,China,34.74,114.42,CHN,Asia
+48,1.0,18.2,Lisbon,Portugal,38.72,-9.13,PRT,Europe
+49,2.0,20.3,Lisbon,Portugal,38.72,-9.13,PRT,Europe
+50,3.0,23.3,Lisbon,Portugal,38.72,-9.13,PRT,Europe
+51,4.0,29.9,Lisbon,Portugal,38.72,-9.13,PRT,Europe
+52,5.0,29.3,Lisbon,Portugal,38.72,-9.13,PRT,Europe
+53,6.0,33.8,Lisbon,Portugal,38.72,-9.13,PRT,Europe
+54,7.0,31.7,Lisbon,Portugal,38.72,-9.13,PRT,Europe
+55,8.0,34.7,Lisbon,Portugal,38.72,-9.13,PRT,Europe
+56,9.0,29.8,Lisbon,Portugal,38.72,-9.13,PRT,Europe
+57,10.0,29.8,Lisbon,Portugal,38.72,-9.13,PRT,Europe
+58,11.0,22.2,Lisbon,Portugal,38.72,-9.13,PRT,Europe
+59,12.0,18.9,Lisbon,Portugal,38.72,-9.13,PRT,Europe
+60,1.0,28.8,Miami,United States of America,25.77,-80.19,USA,Americas
+61,2.0,29.5,Miami,United States of America,25.77,-80.19,USA,Americas
+62,3.0,31.2,Miami,United States of America,25.77,-80.19,USA,Americas
+63,4.0,30.7,Miami,United States of America,25.77,-80.19,USA,Americas
+64,5.0,31.9,Miami,United States of America,25.77,-80.19,USA,Americas
+65,6.0,33.2,Miami,United States of America,25.77,-80.19,USA,Americas
+66,7.0,34.6,Miami,United States of America,25.77,-80.19,USA,Americas
+67,8.0,33.6,Miami,United States of America,25.77,-80.19,USA,Americas
+68,9.0,33.1,Miami,United States of America,25.77,-80.19,USA,Americas
+69,10.0,34.0,Miami,United States of America,25.77,-80.19,USA,Americas
+70,11.0,30.3,Miami,United States of America,25.77,-80.19,USA,Americas
+71,12.0,29.4,Miami,United States of America,25.77,-80.19,USA,Americas
+72,1.0,30.7,Sydney,Australia,-33.88,151.22,AUS,Oceania
+73,2.0,30.4,Sydney,Australia,-33.88,151.22,AUS,Oceania
+74,3.0,38.1,Sydney,Australia,-33.88,151.22,AUS,Oceania
+75,4.0,26.1,Sydney,Australia,-33.88,151.22,AUS,Oceania
+76,5.0,23.4,Sydney,Australia,-33.88,151.22,AUS,Oceania
+77,6.0,23.1,Sydney,Australia,-33.88,151.22,AUS,Oceania
+78,7.0,23.2,Sydney,Australia,-33.88,151.22,AUS,Oceania
+79,8.0,22.0,Sydney,Australia,-33.88,151.22,AUS,Oceania
+80,9.0,30.5,Sydney,Australia,-33.88,151.22,AUS,Oceania
+81,10.0,32.0,Sydney,Australia,-33.88,151.22,AUS,Oceania
+82,11.0,27.6,Sydney,Australia,-33.88,151.22,AUS,Oceania
+83,12.0,28.3,Sydney,Australia,-33.88,151.22,AUS,Oceania
+84,1.0,31.4,Sittwe,Myanmar,20.15,92.9,MMR,Asia
+85,2.0,31.8,Sittwe,Myanmar,20.15,92.9,MMR,Asia
+86,3.0,34.5,Sittwe,Myanmar,20.15,92.9,MMR,Asia
+87,4.0,34.8,Sittwe,Myanmar,20.15,92.9,MMR,Asia
+88,5.0,35.7,Sittwe,Myanmar,20.15,92.9,MMR,Asia
+89,6.0,32.9,Sittwe,Myanmar,20.15,92.9,MMR,Asia
+90,7.0,32.4,Sittwe,Myanmar,20.15,92.9,MMR,Asia
+91,8.0,29.9,Sittwe,Myanmar,20.15,92.9,MMR,Asia
+92,9.0,30.6,Sittwe,Myanmar,20.15,92.9,MMR,Asia
+93,10.0,32.3,Sittwe,Myanmar,20.15,92.9,MMR,Asia
+94,11.0,32.1,Sittwe,Myanmar,20.15,92.9,MMR,Asia
+95,12.0,31.5,Sittwe,Myanmar,20.15,92.9,MMR,Asia
+96,1.0,32.0,Kinshasa,"Congo, Democratic Republic of the",-4.3,15.3,COD,Africa
+97,2.0,33.6,Kinshasa,"Congo, Democratic Republic of the",-4.3,15.3,COD,Africa
+98,3.0,37.7,Kinshasa,"Congo, Democratic Republic of the",-4.3,15.3,COD,Africa
+99,4.0,33.8,Kinshasa,"Congo, Democratic Republic of the",-4.3,15.3,COD,Africa
+100,5.0,34.1,Kinshasa,"Congo, Democratic Republic of the",-4.3,15.3,COD,Africa
+101,6.0,33.4,Kinshasa,"Congo, Democratic Republic of the",-4.3,15.3,COD,Africa
+102,7.0,33.9,Kinshasa,"Congo, Democratic Republic of the",-4.3,15.3,COD,Africa
+103,8.0,37.1,Kinshasa,"Congo, Democratic Republic of the",-4.3,15.3,COD,Africa
+104,9.0,37.8,Kinshasa,"Congo, Democratic Republic of the",-4.3,15.3,COD,Africa
+105,10.0,38.1,Kinshasa,"Congo, Democratic Republic of the",-4.3,15.3,COD,Africa
+106,11.0,31.5,Kinshasa,"Congo, Democratic Republic of the",-4.3,15.3,COD,Africa
+107,12.0,31.4,Kinshasa,"Congo, Democratic Republic of the",-4.3,15.3,COD,Africa
+108,1.0,39.2,Buenos Aires,Argentina,-34.59,-58.67,ARG,Americas
+109,2.0,42.0,Buenos Aires,Argentina,-34.59,-58.67,ARG,Americas
+110,3.0,43.9,Buenos Aires,Argentina,-34.59,-58.67,ARG,Americas
+111,4.0,29.8,Buenos Aires,Argentina,-34.59,-58.67,ARG,Americas
+112,5.0,25.6,Buenos Aires,Argentina,-34.59,-58.67,ARG,Americas
+113,6.0,24.7,Buenos Aires,Argentina,-34.59,-58.67,ARG,Americas
+114,7.0,25.2,Buenos Aires,Argentina,-34.59,-58.67,ARG,Americas
+115,8.0,28.0,Buenos Aires,Argentina,-34.59,-58.67,ARG,Americas
+116,9.0,24.4,Buenos Aires,Argentina,-34.59,-58.67,ARG,Americas
+117,10.0,32.7,Buenos Aires,Argentina,-34.59,-58.67,ARG,Americas
+118,11.0,36.3,Buenos Aires,Argentina,-34.59,-58.67,ARG,Americas
+119,12.0,39.6,Buenos Aires,Argentina,-34.59,-58.67,ARG,Americas

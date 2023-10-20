@@ -6,20 +6,50 @@ import pandas as pd
 from dash.dependencies import Input, Output, State
 
 # Lesen der Daten
+new = pd.read_csv('heatwaves.csv')
 df = pd.read_csv('maxdata.csv')
 df_rain = pd.read_csv('maxprecip.csv')
 df_min = pd.read_csv('mintemp.csv')
 
 
 # maximum temperature diagramm
-fig_3 = px.choropleth(
-    df, locations="alpha-3", projection='natural earth',
-    color="max_temp", 
-    hover_name="city", 
-    color_continuous_scale=px.colors.sequential.Reds, range_color= (-30, 40),
-    animation_frame= 'month',
-    height= 600
+
+fig_3 = px.choropleth(new,
+                    locations='alpha-3',  # Use the 'alpha-3' column for country outlines
+                    locationmode='ISO-3',  # Use ISO-3 country codes
+                    color='max_temp',
+                    projection='natural earth',
+                    title='Maximum Temperature of Cities Around the World',
+                    animation_frame= 'month',
+                    height= 600,
+                    color_continuous_scale=px.colors.sequential.Plasma)
+
+# Add the scatter plot on top of the choropleth map
+scatter = px.scatter_geo(new,
+                         lat='lat',
+                         lon='lon',
+                         text='city',
+                         projection='natural earth')
+
+fig.add_trace(scatter.data[0])
+
+# Update the layout to set the country boundaries to black
+fig.update_geos(
+    countrycolor='black',
+    showcountries=True,
 )
+
+# Show the map
+fig.show()
+
+# fig_3 = px.choropleth(
+#     df, locations="alpha-3", projection='natural earth',
+#     color="max_temp", 
+#     hover_name="city", 
+#     color_continuous_scale=px.colors.sequential.Reds, range_color= (-30, 40),
+#     animation_frame= 'month',
+#     height= 600
+# )
 
 # maximum preciption bar chart
 fig_4 = px.bar(df_rain, x= 'month', y='max_precip_mm', color='city',barmode='group', height= 500, title= 'Maximum precipitation per month in bars')
@@ -63,7 +93,7 @@ radio_item_fig_4 = dcc.RadioItems(
 content = html.Div([
     html.H3('Heat Waves', style={"paddingLeft": "100px"}),
     dcc.Graph(figure=fig_3),  # Füge das erste Diagramm hinzu
-    html.H3('Hard Rainfalls', style={"paddingLeft": "100px"}),
+    html.H3('Floods', style={"paddingLeft": "100px"}),
     radio_item_fig_4,  # Füge das Radio-Element für fig_4 hinzu
     dcc.Graph(id='fig-4-graph'),  # Leeres Graph-Element für fig_4
     html.H3('Cold Waves', style={"paddingLeft": "100px"}),
