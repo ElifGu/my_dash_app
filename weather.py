@@ -23,7 +23,7 @@ fig_3 = px.choropleth(new,
                     title='Maximum Temperature of Cities Around the World',
                     animation_frame= 'month',
                     height= 600,
-                    color_continuous_scale=px.colors.sequential.Plasma
+                    color_continuous_scale=px.colors.sequential.Plasma,
                     range_color= (-30, 40))
 
 # Add the scatter plot on top of the choropleth map
